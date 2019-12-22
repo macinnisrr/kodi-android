@@ -1,5 +1,0 @@
-<mediasources>
-    <network>
-        <location id="0">sftp://io:10101010@192.168.0.3:22/</location>
-    </network>
-</mediasources>
