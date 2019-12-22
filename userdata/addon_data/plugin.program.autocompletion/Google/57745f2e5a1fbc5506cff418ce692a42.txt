@@ -1,0 +1,1 @@
+["Seter", ["seterra", "seterra speedrun", "stereo love", "determinate", "determinants", "setaria", "seterra ghazal sadat", "setters film", "setar", "setermoen norway"], [], {"google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

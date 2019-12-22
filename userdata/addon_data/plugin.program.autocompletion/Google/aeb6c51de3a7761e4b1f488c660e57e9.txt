@@ -1,0 +1,1 @@
+["22", ["223", "223 clean", "22 minutes", "22three topshotta", "22", "22 jump street", "22 savage", "223s tik tok", "223 lofi", "22gz suburban pt.2"], [], {"google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

@@ -1,0 +1,1 @@
+["cr", ["critical role", "cristiano ronaldo", "crazy frog", "crime patrol", "crab rave", "crypt", "cradles", "crowder", "crankgameplays", "crainer"], [], {"google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

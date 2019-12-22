@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<colors>
+    <color name="black">FF000000</color>
+    <color name="background">FF000000</color>
+    <color name="highlight">FF00FF00</color>
+    <color name="overlay">FF000000</color>
+    <color name="textActive">FFFFFFFF</color>
+    <color name="textDisabled">FF888888</color>
+    <color name="menuDisabled">FF888888</color>
+    <color name="menuUnselected">FF888888</color>
+    <color name="textboxInactive">FFFFFFFF</color>
+    <color name="keyboardInactive">FF888888</color>
+    <color name="keyboardAccent">FF00FF00</color>
+</colors>

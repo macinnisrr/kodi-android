@@ -1,0 +1,1 @@
+["can", ["canucks", "candy", "canada", "candy shop", "candy ken", "canon in d", "cantomando", "candy paint", "canadian election 2019", "candace owens"], [], {"google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

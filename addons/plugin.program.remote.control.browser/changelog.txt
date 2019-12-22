@@ -1,0 +1,50 @@
+v1.4.2 (2019-01-09)
+- Remove executable permissions
+
+v1.4.1 (2019-01-09)
+- Update add-on description
+
+v1.4.0 (2019-01-09)
+- Warn for missing PulseAudio libraries
+
+v1.3.2 (2018-11-24)
+- Document a website
+
+v1.3.1 (2018-11-23)
+- Default to PulseAudio
+
+v1.3.0 (2018-11-23)
+- Support PulseAudio
+
+v1.2.2 (2017-08-26)
+- Add news to addon.xml
+
+v1.2.1 (2017-04-29)
+- Exit browser if Kodi exits
+
+v1.2.0 (2017-04-20)
+- Support star and hash remote buttons
+
+v1.1.0 (2017-04-02)
+- Workaround for underpowered hosts
+
+v1.0.6 (2017-01-22)
+- Detect Epiphany browsers
+
+v1.0.5 (2016-11-27)
+- Dynamically adjust settings values but not the settings schema
+
+v1.0.4 (2016-11-07)
+- Fix a lint warning
+
+v1.0.3 (2016-11-06)
+- Require the PIL module
+
+v1.0.2 (2016-10-03)
+- Clear languages from metadata
+
+v1.0.1 (2016-09-14)
+- Expect newer psutil
+
+v1.0.0 (2016-08-16)
+- Initial public release

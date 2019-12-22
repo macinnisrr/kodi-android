@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.chailove"
+		name="ChaiLove"
+		version="0.31.0.3"
+		provider-name="Libretro">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.default" version="1.0.5"/>
+		<import addon="game.controller.keyboard" version="1.0.0"/>
+		<import addon="game.controller.mouse" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_android="libgame.libretro.chailove.so">
+		<platforms>ChaiLove</platforms>
+		<extensions>chai|chailove</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>true</supports_standalone>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">ChaiLove 0.31.0</summary>
+		<description lang="en_GB">ChaiLove is a 2D game framework. Inspired by the Love2D API, ChaiLove allows the creation of 2D games using the ChaiScript scripting language.
+
+See https://github.com/libretro/libretro-chailove for a list of games that are available in ChaiLove.
+
+Supported files: .chai, .chailove</description>
+		<license>MIT</license>
+		<platform>android-armv7</platform>
+		<source>https://github.com/kodi-game/game.libretro.chailove</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.png</screenshot>
+			<screenshot>resources/screenshot-02.png</screenshot>
+			<screenshot>resources/screenshot-03.png</screenshot>
+		</assets>
+	</extension>
+</addon>

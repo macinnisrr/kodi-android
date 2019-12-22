@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="30000">
+		<setting label="30001" type="select" id="beetle_saturn_analog_stick_deadzone" values="15%|0%|5%|10%|20%|25%|30%" default="15%"/>
+		<setting label="30002" type="select" id="beetle_saturn_autortc" values="enabled|disabled" default="enabled"/>
+		<setting label="30003" type="select" id="beetle_saturn_autortc_lang" values="english|german|french|spanish|italian|japanese" default="english"/>
+		<setting label="30004" type="select" id="beetle_saturn_cart" values="Auto Detect|None|Backup Memory|Extended RAM (1MB)|Extended RAM (4MB)|The King of Fighters &#39;95|Ultraman: Hikari no Kyojin Densetsu" default="Auto Detect"/>
+		<setting label="30005" type="select" id="beetle_saturn_cdimagecache" values="disabled|enabled" default="disabled"/>
+		<setting label="30006" type="select" id="beetle_saturn_horizontal_blend" values="disabled|enabled" default="disabled"/>
+		<setting label="30007" type="select" id="beetle_saturn_horizontal_overscan" values="0|2|4|6|8|10|12|14|16|18|20|22|24|26|28|30|32|34|36|38|40|42|44|46|48|50|52|54|56|58|60" default="0"/>
+		<setting label="30008" type="select" id="beetle_saturn_initial_scanline" values="0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|32|33|34|35|36|37|38|39|40" default="0"/>
+		<setting label="30009" type="select" id="beetle_saturn_initial_scanline_pal" values="0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|32|33|34|35|36|37|38|39|40|41|42|43|44|45|46|47|48|49|50|51|52|53|54|55|56|57|58|59|60" default="0"/>
+		<setting label="30010" type="select" id="beetle_saturn_last_scanline" values="239|210|211|212|213|214|215|216|217|218|219|220|221|222|223|224|225|226|227|228|229|230|231|232|233|234|235|236|237|238" default="239"/>
+		<setting label="30011" type="select" id="beetle_saturn_last_scanline_pal" values="271|230|231|232|233|234|235|236|237|238|239|240|241|242|243|244|245|246|247|248|249|250|251|252|253|254|255|256|257|258|259|260|261|262|263|264|265|266|267|268|269|270|272|273|274|275|276|277|278|279|280|281|282|283|284|285|286|287" default="271"/>
+		<setting label="30012" type="select" id="beetle_saturn_midsync" values="disabled|enabled" default="disabled"/>
+		<setting label="30013" type="select" id="beetle_saturn_mouse_sensitivity" values="100%|5%|10%|15%|20%|25%|30%|35%|40%|45%|50%|55%|60%|65%|70%|75%|80%|85%|90%|95%|105%|110%|115%|120%|125%|130%|135%|140%|145%|150%|155%|160%|165%|170%|175%|180%|185%|190%|195%|200%" default="100%"/>
+		<setting label="30014" type="select" id="beetle_saturn_multitap_port1" values="disabled|enabled" default="disabled"/>
+		<setting label="30015" type="select" id="beetle_saturn_multitap_port2" values="disabled|enabled" default="disabled"/>
+		<setting label="30016" type="select" id="beetle_saturn_region" values="Auto Detect|Japan|North America|Europe|South Korea|Asia (NTSC)|Asia (PAL)|Brazil|Latin America" default="Auto Detect"/>
+		<setting label="30017" type="select" id="beetle_saturn_trigger_deadzone" values="15%|0%|5%|10%|20%|25%|30%" default="15%"/>
+		<setting label="30018" type="select" id="beetle_saturn_virtuagun_crosshair" values="Cross|Dot|Off" default="Cross"/>
+		<setting label="30019" type="select" id="beetle_saturn_virtuagun_input" values="Lightgun|Touchscreen" default="Lightgun"/>
+	</category>
+</settings>

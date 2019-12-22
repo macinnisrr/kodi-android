@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta charset="utf-8"/>
+<!-- <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+<link href="vendor/fonts/roboto_materialicons.css" rel="stylesheet">
+<!-- https://github.com/caldwell/renderjson 1.3.2 -->
+<script src="vendor/renderjson.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
+<script src="vendor/vue.min.js"></script>
+
+<title>Devhelper web</title>
+<link href="css/style.css" rel="stylesheet">
+<script>
+let isdebug = false
+let debug = {
+	appstate: false,
+	ping: false,
+	runningdata: false,
+	other_jsonrpc: false
+}
+</script>
+<script src="js/libs.js"></script>
+<script src="js/kodi.js"></script>
+</head>
+<body>
+<header class="header">
+	<div class="header__titleandbuttons"><div class="header__titles"><a id="maintitle" href="">Devhelper web</a>
+		<div class="header__subtitle" id="subtitle-js"></div></div>
+		<div id="header-buttons-vue" class="header__buttons">
+			<icon-button title="Show Handy Actions" icon="dns" @click="open_handyactions"
+				v-show="show_handyactions"></icon-button>
+			<icon-button title="Open Web PDB (Python debugger)" icon="bug_report" @click="open_webpdb"
+				v-show="show_pdbbutton" button-class="nav-button"></icon-button>
+			<icon-button title="View Kodi log" icon="list" @click="open_kodilog"
+				v-show="show_logbutton" button-class="nav-button"></icon-button>
+			<icon-button title="Show running data" icon="autorenew" @click="start_runningdata" button-class="nav-button"
+				:icon-class="{'forever-rotate': runningdata_mode}"></icon-button>
+		</div>
+	</div>
+	<div class="conbox">
+		<div class="conbox__shortcontent">
+			<div id="conbox-shortcontent-js" class="conbox__shortcontent-message"><span>No host</span></div>
+			<button type="button" id="conbox-button-js" class="flatbutton conbox__button"
+				title="Expand connection list"><i class="icon">+</i></button>
+		</div>
+		<div id="conbox-content-js" class="conbox__content" style="display: none">
+			<div style="text-align: right; margin-bottom: 3px;"><label>Connect to new host <input type="text" name="host"
+				placeholder="http://localhost:8080" style="margin-left: 10px;width: 200px"></label></div>
+			<div id="conbox-allconnections"></div>
+			<template id="connection-template"><li class="connection-li inline-li connection-li-js"><span></span>
+				<i class="material-icons closeicon"></i></li></template>
+		</div>
+	</div>
+</header>
+<div class="wrapper">
+	<nav class="method-list">
+		<input placeholder="Find method" type="text" class="method-search" id="method-search-js">
+		<ul id="method-list-js"></ul>
+		<template id="namespace-template"><li class="namespace-li namespace-li-js"><a></a></li></template>
+		<template id="method-template"><li class="method-li nodisplay"><a></a></li></template>
+	</nav>
+	<div class="content-box">
+		<button type="button" id="methodlist-toggle-button-js" class="flatbutton clearbutton smallbutton methodlist-toggle"
+			title="Toggle method list display"><i class="material-icons icon">chevron_left</i></button>
+		<div id="execution-container-js" class="execution-container">
+			<div id="method-title-js" class="method-title"><span class="title"></span><span></span></div>
+			<div><form name="params-form">
+				<ul id="params-list-js" class="params-list"></ul>
+				<template id="param-template"><li class="param-li inline-li has-popoutinfo">
+					<label><span>Param name</span><input type="text" /></label>
+					<button class="flatbutton clearbutton smallbutton switcher switcher-js nodisplay"
+							type="button" tabindex="-1" title="Click to toggle examples">
+						<i class="material-icons">rotate_right</i></button>
+				</li></template>
+				<template id="param-bool-template"><li class="param-li inline-li has-popoutinfo param-li-checkbox">
+					<label><span>Param name</span><input type="checkbox" /></label>
+				</li></template>
+				<template id="param-select-template"><li class="param-li inline-li has-popoutinfo">
+					<label><span>Param name</span><select></select></label>
+				</li></template>
+				<div class="inline-li nodisplay">
+					<div>Custom InfoLabels</div>
+					<textarea id="customlabels-js" class="execution__bigbox"></textarea>
+				</div>
+				<div class="inline-li nodisplay">
+					<div>Custom InfoBooleans</div>
+					<textarea id="custombooleans-js" class="execution__bigbox"></textarea>
+				</div>
+				<div id="action-container-js" class="action-container">
+					<button type="submit" id="execute-button-js" class="flatbutton action-button nodisplay">
+						<i class="material-icons">play_arrow</i> Execute method</button>
+					<button type="button" id="filter-button-js" class="flatbutton clearbutton smallbutton nodisplay"
+						tabindex="-1" title="Toggle all infos"><i class="material-icons">filter_list</i></button>
+				</div>
+			</form></div>
+		</div>
+		<div class="content-container">
+			<main id="content-js" class="content"><div class="result">
+				<p>You can add more Kodi hosts in the orange section to the far right along the top.
+				<p>Click the "Show running data" button in the right of the red section along the top to watch InfoLabels
+				and InfoBooleans, the same data available to skins.
+				<p id="log-desc-js" class="nodisplay">To use the "View Kodi log" button, add "special://logpath/"
+				as a media source in Kodi (pictures, music, or videos; the file browser won't work).
+				Do note that this can allow HTTP requests to Kodi to read everything in the same folder
+				as the log, including subdirectories.
+				On Windows this includes everything in Kodi's entire data directory.</p>
+				<p id="webpdb-desc-js" class="nodisplay">See
+				<a href="http://kodi.wiki/view/HOW-TO:Debug_Python_Scripts_with_Web-PDB" target="_blank">Web PDB</a>
+				for super Python debugging powers.</p>
+				<p>All notifications from the connected Kodi host will show up on the right, and you can explore
+				JSON-RPC methods to the left, then fill out the params and execute it below.
+				<p>URLs power much of the functionality, which can be bookmarked for quick access.
+				<p>A details box will show up at the bottom of the column to the right, showing details of certain items
+				as your mouse cursor passes over them. Param details will show up here, as well as the full JSON-RPC request over
+				the title of method "Calling" and "Result" info, and images from image URLs in requests and the
+				"Available art" running data section. Click on the item to pin the details so that your mouse cursor can roam.
+			</div></main>
+			<div class="notify-preview-box">
+				<div class="notify-box-buttons">
+					<button type="button" id="notification-pause-js" class="flatbutton clearbutton smallbutton"
+						title="Pause notifications"><i class="material-icons">notifications</i></button>
+				</div>
+				<div id="notifications-js" class="notifications"></div>
+				<div id="preview-js" class="preview"></div>
+			</div>
+			<template id="output-template"><div class="result">
+				<div class="result-title data-js"></div><pre class="result-output data-js"></pre>
+			</div></template>
+			<template id="runningdata-template"><div class="runningdata" style="position: relative;">
+				<button type="button" id="runningdata-ping-js" title="Toggle running speed" tabindex="-1"
+					class="flatbutton clearbutton smallbutton-text runningping"></button>
+				<div id="runningdata-help-js" class="nodisplay">
+					Check one or more boxes in the yellow section below to watch some data that is frequently
+					updated. These are powered by InfoLabels and InfoBooleans, the same info
+					available to skins on the current window.
+					<p>Custom InfoLabels and InfoBooleans can be entered one per line.
+					<p>Click on the ping time ('##ms') in the top-right of this box to update faster.
+					<p>The artwork and visible windows checked can be configured with buttons
+					along the bottom left.
+					</div>
+			</div></template>
+			<template id="runningdata-section-template"><div class="runningdata-section inline-li nodisplay">
+				<div class="runningdata-title data-js">Section title</div><ul class="runningdata-data data-js"></ul>
+			</div></template>
+			<template id="runningdata-li-template"><li class="runningdata-li"><span class="li-title"></span><span></span></li></template>
+			<template id="notification-template"><div class="notification">
+				<div class="notification-title data-js"></div><pre class="notification-data data-js"></pre>
+			</div></template>
+			<template id="preview-pre-template"><pre></pre></template>
+			<template id="preview-img-template"><div></div><img></template>
+		</div>
+	</div>
+</div>
+<footer class="footer">
+	<div id="footer-buttons-vue" class="footer-buttons">
+		<icon-button title="Switch color theme" icon="format_paint" @click="switch_theme"></icon-button>
+		<icon-button title="Open settings" icon="settings" @click="open_settings" button-class="nav-button"></icon-button>
+		<icon-button title="Edit custom windows" icon="code" @click="open_customwindows" button-class="nav-button"></icon-button>
+		<icon-button title="Edit full art list" icon="brush" @click="open_artlist" button-class="nav-button"></icon-button>
+	</div>
+	<address class="madeby">Made by <a href="https://github.com/rmrector" target="_blank">Ryan Rector</a></address>
+</footer>
+<div id="settings-dialog-vue">
+	<dialog-window header="Settings" v-show="show" @close="close">
+		<ul class="settings-list">
+			<li v-for="switch_ in switches"><label>
+				<input type="checkbox" :name="switch_.name" :checked="switch_.value" @input="set_switch" />
+				{{ switch_.label }}</label></li>
+		</ul>
+	</dialog-window>
+</div>
+<div id="customwindows-editor-vue">
+	<dialog-window header="Custom windows" v-show="show" @close="close"
+		description="Custom script windows to include in 'Visible windows' of RunningData. One window per line.">
+		<textarea v-model.lazy="customwindows_text" style="height: 400px; width: 450px;"></textarea>
+	</dialog-window>
+</div>
+<div id="artlist-editor-vue">
+	<dialog-window header="Custom art list" v-show="show" @close="close"
+		description="Artwork types to look for in RunningData. One art type per line.">
+		<div style="width: 710px;">
+			<div class="artlist__mediatype"><label>movie:
+				<textarea v-model.lazy="mediatype_movie"></textarea>
+			</label></div><div class="artlist__mediatype"><label>set:
+				<textarea v-model.lazy="mediatype_set"></textarea>
+			</label></div><div class="artlist__mediatype"><label>tvshow:
+				<textarea v-model.lazy="mediatype_tvshow"></textarea>
+			</label></div><div class="artlist__mediatype"><label>season:
+				<textarea v-model.lazy="mediatype_season"></textarea>
+			</label></div><div class="artlist__mediatype"><label>episode:
+				<textarea v-model.lazy="mediatype_episode"></textarea>
+			</label></div><div class="artlist__mediatype"><label>musicvideo:
+				<textarea v-model.lazy="mediatype_musicvideo"></textarea>
+			</label></div><div class="artlist__mediatype"><label>artist:
+				<textarea v-model.lazy="mediatype_artist"></textarea>
+			</label></div><div class="artlist__mediatype"><label>album:
+				<textarea v-model.lazy="mediatype_album"></textarea>
+			</label></div><div class="artlist__mediatype"><label>song:
+				<textarea v-model.lazy="mediatype_song"></textarea>
+			</label></div><div class="artlist__buttonbox">
+				<button type="button" :disabled="shared.loadingartwork" @click="load_artlist"
+					class="flatbutton action-button progress-button" title="Will take a minute">{{ loadbutton_text }}</button>
+			</div>
+		</div>
+	</dialog-window>
+</div>
+<div class="splash" id="splash-js"></div>
+
+<div id="uishim-vue">
+	<link class="themesheet" href="css/rainbowhork.css" rel="stylesheet" title="Default theme"
+		:disabled="shared.settings.theme !== 'Default theme'">
+	<link class="themesheet" href="css/light.css" rel="alternate stylesheet" title="Light theme"
+		:disabled="shared.settings.theme !== 'Light theme'">
+</div>
+<script src="js/ui.js"></script>
+<script src="js/frontend.js"></script>
+<script>start_app()</script>
+</body>
+</html>

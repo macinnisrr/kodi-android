@@ -1,0 +1,1 @@
+["canada", ["canada", "canada goose", "canada election", "canada vs usa", "canada election 2019 live", "canada debate", "canada's wonderland", "canada vs usa soccer", "canada waliye manavgeet gill", "canada news"], [], {"google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

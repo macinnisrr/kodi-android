@@ -1,0 +1,1 @@
+["the g", ["the game awards 2019", "the game awards", "the git up", "the game", "the grinch", "the greatest showman", "the git up dance", "the grinch song", "the grumps", "the good doctor"], [], {"google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

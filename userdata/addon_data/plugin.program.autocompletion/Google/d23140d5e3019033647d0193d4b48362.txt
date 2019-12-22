@@ -1,0 +1,1 @@
+["CBC News", ["cbc news", "cbc news live", "cbc news live stream", "cbc news the national", "cbc news vancouver", "cbc news winnipeg", "cbc news the national live", "cbc news debate", "cbc news election", "cbc news intro"], [], {"google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

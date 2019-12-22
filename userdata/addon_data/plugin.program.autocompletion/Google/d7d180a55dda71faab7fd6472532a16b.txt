@@ -1,0 +1,1 @@
+["Boys Town", ["boys town gang", "boys town road", "boys town full movie", "boys town movie", "boys town 1938", "boys town mexico", "boys town hospital", "boys town public school", "boys town high school", "boys town school"], [], {"google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

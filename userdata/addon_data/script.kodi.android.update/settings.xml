@@ -1,0 +1,12 @@
+<settings version="2">
+    <setting id="Build" default="true">{&quot;major&quot;: 18, &quot;tag&quot;: &quot;stable&quot;, &quot;minor&quot;: 5, &quot;revision&quot;: &quot;20191116-37f51f6e63&quot;}</setting>
+    <setting id="Custom_Manager" default="true"></setting>
+    <setting id="Disable_Cache">true</setting>
+    <setting id="Disable_Maintenance" default="true">false</setting>
+    <setting id="Enable_Debugging" default="true">false</setting>
+    <setting id="File_Manager" default="true">0</setting>
+    <setting id="LastPath" default="true"></setting>
+    <setting id="LastURL" default="true"></setting>
+    <setting id="Platform">armv8l</setting>
+    <setting id="Version">Android 7.0.0 API level 24 (kernel: Linux 3.10.65)</setting>
+</settings>

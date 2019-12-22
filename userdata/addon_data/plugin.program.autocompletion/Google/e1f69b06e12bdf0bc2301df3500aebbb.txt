@@ -1,0 +1,1 @@
+["prima", ["prima donnas", "primal", "prima donnas december 18 2019", "primal trailer", "prima donnas dec 17", "prima donnas dec 17 2019", "prima donnas dec 19", "prima donnas dec 19 teaser", "prima donnas dec 16 2019", "prima donnas december 18"], [], {"google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

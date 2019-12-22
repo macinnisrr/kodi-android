@@ -1,0 +1,24 @@
+<settings version="2">
+    <setting id="blackadddon" default="true"></setting>
+    <setting id="blackfolder" default="true">folder1xxx,folder2xxx</setting>
+    <setting id="blackvideo" default="true">video1xxx,video2xxx</setting>
+    <setting id="custom_path" default="true"></setting>
+    <setting id="custom_path_enable" default="true">false</setting>
+    <setting id="enable_debug" default="true">false</setting>
+    <setting id="group_source" default="true">30018</setting>
+    <setting id="list_size">10</setting>
+    <setting id="movies">true</setting>
+    <setting id="music">true</setting>
+    <setting id="show_date">true</setting>
+    <setting id="show_time">true</setting>
+    <setting id="single_list">true</setting>
+    <setting id="smovies">true</setting>
+    <setting id="starmovies" default="true">false</setting>
+    <setting id="stv">true</setting>
+    <setting id="svideos" default="true">false</setting>
+    <setting id="TMDBpwd" default="true"></setting>
+    <setting id="TMDBusr" default="true"></setting>
+    <setting id="top_size" default="true">0</setting>
+    <setting id="tv">true</setting>
+    <setting id="videos">true</setting>
+</settings>

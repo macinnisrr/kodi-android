@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="30000">
+		<setting label="30001" type="select" id="desmume_advanced_timing" values="enabled|disabled" default="enabled"/>
+		<setting label="30002" type="select" id="desmume_boot_into_bios" values="disabled|enabled" default="disabled"/>
+		<setting label="30003" type="select" id="desmume_color_depth" values="16-bit|32-bit" default="16-bit"/>
+		<setting label="30004" type="select" id="desmume_cpu_mode" values="jit|interpreter" default="jit"/>
+		<setting label="30005" type="select" id="desmume_firmware_language" values="Auto|English|Japanese|French|German|Italian|Spanish" default="Auto"/>
+		<setting label="30006" type="select" id="desmume_frameskip" values="0|1|2|3|4|5|6|7|8|9" default="0"/>
+		<setting label="30007" type="select" id="desmume_gfx_edgemark" values="enabled|disabled" default="enabled"/>
+		<setting label="30008" type="select" id="desmume_gfx_highres_interpolate_color" values="disabled|enabled" default="disabled"/>
+		<setting label="30009" type="select" id="desmume_gfx_linehack" values="enabled|disabled" default="enabled"/>
+		<setting label="30010" type="select" id="desmume_gfx_multisampling" values="disabled|2|4|8|16|32" default="disabled"/>
+		<setting label="30011" type="select" id="desmume_gfx_texture_deposterize" values="disabled|enabled" default="disabled"/>
+		<setting label="30012" type="select" id="desmume_gfx_texture_scaling" values="1|2|4" default="1"/>
+		<setting label="30013" type="select" id="desmume_gfx_texture_smoothing" values="disabled|enabled" default="disabled"/>
+		<setting label="30014" type="select" id="desmume_gfx_txthack" values="disabled|enabled" default="disabled"/>
+		<setting label="30015" type="select" id="desmume_hybrid_cursor_always_smallscreen" values="enabled|disabled" default="enabled"/>
+		<setting label="30016" type="select" id="desmume_hybrid_layout_ratio" values="3:1|2:1" default="3:1"/>
+		<setting label="30017" type="select" id="desmume_hybrid_layout_scale" values="disabled|enabled" default="disabled"/>
+		<setting label="30018" type="select" id="desmume_hybrid_showboth_screens" values="enabled|disabled" default="enabled"/>
+		<setting label="30019" type="select" id="desmume_input_rotation" values="0|90|180|270" default="0"/>
+		<setting label="30020" type="select" id="desmume_internal_resolution" values="256x192|512x384|768x576|1024x768|1280x960|1536x1152|1792x1344|2048x1536|2304x1728|2560x1920" default="256x192"/>
+		<setting label="30021" type="select" id="desmume_jit_block_size" values="12|13|14|15|16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|32|33|34|35|36|37|38|39|40|41|42|43|44|45|46|47|48|49|50|51|52|53|54|55|56|57|58|59|60|61|62|63|64|65|66|67|68|69|70|71|72|73|74|75|76|77|78|79|80|81|82|83|84|85|86|87|88|89|90|91|92|93|94|95|96|97|98|99|100|0|1|2|3|4|5|6|7|8|9|10|11" default="12"/>
+		<setting label="30022" type="select" id="desmume_load_to_memory" values="disabled|enabled" default="disabled"/>
+		<setting label="30023" type="select" id="desmume_mic_mode" values="pattern|random" default="pattern"/>
+		<setting label="30024" type="select" id="desmume_mouse_speed" values="1.0|1.5|2.0|0.01|0.02|0.03|0.04|0.05|0.125|0.25|0.5" default="1.0"/>
+		<setting label="30025" type="select" id="desmume_num_cores" values="1|2|3|4" default="1"/>
+		<setting label="30026" type="select" id="desmume_opengl_depth_lequal_polygon_facing" values="disabled|enabled" default="disabled"/>
+		<setting label="30027" type="select" id="desmume_opengl_mode" values="disabled|enabled" default="disabled"/>
+		<setting label="30028" type="select" id="desmume_opengl_nds_depth_calculation" values="enabled|disabled" default="enabled"/>
+		<setting label="30029" type="select" id="desmume_opengl_shadow_polygon" values="enabled|disabled" default="enabled"/>
+		<setting label="30030" type="select" id="desmume_opengl_special_zero_alpha" values="enabled|disabled" default="enabled"/>
+		<setting label="30031" type="select" id="desmume_pointer_colour" values="white|black|red|blue|yellow" default="white"/>
+		<setting label="30032" type="select" id="desmume_pointer_device_acceleration_mod" values="0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|32|33|34|35|36|37|38|39|40|41|42|43|44|45|46|47|48|49|50|51|52|53|54|55|56|57|58|59|60|61|62|63|64|65|66|67|68|69|70|71|72|73|74|75|76|77|78|79|80|81|82|83|84|85|86|87|88|89|90|91|92|93|94|95|96|97|98|99|100" default="0"/>
+		<setting label="30033" type="select" id="desmume_pointer_device_deadzone" values="15|20|25|30|35|0|5|10" default="15"/>
+		<setting label="30034" type="select" id="desmume_pointer_device_l" values="none|emulated|absolute|pressed" default="none"/>
+		<setting label="30035" type="select" id="desmume_pointer_device_r" values="none|emulated|absolute|pressed" default="none"/>
+		<setting label="30036" type="select" id="desmume_pointer_mouse" values="enabled|disabled" default="enabled"/>
+		<setting label="30037" type="select" id="desmume_pointer_stylus_pressure" values="50|51|52|53|54|55|56|57|58|59|60|61|62|63|64|65|66|67|68|69|70|71|72|73|74|75|76|77|78|79|80|81|82|83|84|85|86|87|88|89|90|91|92|93|94|95|96|97|98|99|100|0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|32|33|34|35|36|37|38|39|40|41|42|43|44|45|46|47|48|49|" default="50"/>
+		<setting label="30038" type="select" id="desmume_pointer_type" values="mouse|touch" default="mouse"/>
+		<setting label="30039" type="select" id="desmume_screens_gap" values="0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|32|33|34|35|36|37|38|39|40|41|42|43|44|45|46|47|48|49|50|51|52|53|54|55|56|57|58|59|60|61|62|63|64|65|66|67|68|69|70|71|72|73|74|75|76|77|78|79|80|81|82|83|84|85|86|87|88|89|90|91|92|93|94|95|96|97|98|99|100" default="0"/>
+		<setting label="30040" type="select" id="desmume_screens_layout" values="top/bottom|bottom/top|left/right|right/left|top only|bottom only|hybrid/top|hybrid/bottom" default="top/bottom"/>
+		<setting label="30041" type="select" id="desmume_use_external_bios" values="disabled|enabled" default="disabled"/>
+	</category>
+</settings>

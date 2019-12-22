@@ -1,0 +1,1 @@
+["ad", ["adele", "adam lz", "adam22", "adam saleh", "adam driver walks out", "adam driver", "adam lambert", "addams family", "adam sandler", "adley"], [], {"google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

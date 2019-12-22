@@ -1,0 +1,1 @@
+["Kids in the Hall co", ["kids in the hall cops", "kids in the hall court", "kids in the hall communism"], [], {"google:suggesttype": ["QUERY", "QUERY", "QUERY"]}]

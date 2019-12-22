@@ -1,0 +1,194 @@
+# XBMC Media Center language file
+# Addon Name: Edit EDL files for Kodi
+# Addon id: script.edleditor
+# Addon version: 0.8.0
+# Addon Provider: Helly1206
+msgid ""
+msgstr ""
+"Project-Id-Version: XBMC-Addons\n"
+"Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
+"POT-Creation-Date: 2014-04-16 15:38+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+msgctxt "Addon Summary"
+msgid "EDL editor"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "EDL editor to create, edit enable or disable EDL files (or comskip txt files) for Kodi."
+msgstr ""
+
+msgctxt "#60000"
+msgid "EDL editor"
+msgstr ""
+
+msgctxt "#60001"
+msgid "Select video to edit"
+msgstr ""
+
+msgctxt "#60002"
+msgid "No EDL exists for this file"
+msgstr ""
+
+msgctxt "#60003"
+msgid "EDL is disabled for this file"
+msgstr ""
+
+msgctxt "#60004"
+msgid "EDL is enabled for this file"
+msgstr ""
+
+msgctxt "#60005"
+msgid "Create EDL"
+msgstr ""
+
+msgctxt "#60006"
+msgid "Enable EDL"
+msgstr ""
+
+msgctxt "#60007"
+msgid "Edit EDL"
+msgstr ""
+
+msgctxt "#60008"
+msgid "Disable EDL"
+msgstr ""
+
+msgctxt "#60009"
+msgid "Canceled"
+msgstr ""
+
+msgctxt "#60010"
+msgid "Prefer EDL files over TXT"
+msgstr ""
+
+msgctxt "#60011"
+msgid "Use frame based EDL for new files (instead of time based)"
+msgstr ""
+
+msgctxt "#60012"
+msgid "Select video folder (empty for default)"
+msgstr ""
+
+msgctxt "#60013"
+msgid "Use 1 second search delay (faster search, slower frame update)"
+msgstr ""
+
+msgctxt "#60014"
+msgid "Dialog look & feel"
+msgstr ""
+
+msgctxt "#60020"
+msgid "Disabled EDL file: %s"
+msgstr ""
+
+msgctxt "#60021"
+msgid "Enabled EDL file: %s"
+msgstr ""
+
+msgctxt "#60022"
+msgid "Please wait ..."
+msgstr ""
+
+msgctxt "#60023"
+msgid "Please wait while video file is searched ..."
+msgstr ""
+
+msgctxt "#60024"
+msgid "No pyAV installed, video processing not possible"
+msgstr ""
+
+msgctxt "#60025"
+msgid "Please enter start time:"
+msgstr ""
+
+msgctxt "#60026"
+msgid "Please enter stop time:"
+msgstr ""
+
+msgctxt "#60100"
+msgid "Store"
+msgstr ""
+
+msgctxt "#60101"
+msgid "Cancel"
+msgstr ""
+
+msgctxt "#60102"
+msgid "N.A."
+msgstr ""
+
+msgctxt "#60103"
+msgid "Edit Cut"
+msgstr ""
+
+msgctxt "#60104"
+msgid "Add new Cut"
+msgstr ""
+
+msgctxt "#60105"
+msgid "Delete Cut"
+msgstr ""
+
+msgctxt "#60106"
+msgid "Ok"
+msgstr ""
+
+msgctxt "#60110"
+msgid "Video File:"
+msgstr ""
+
+msgctxt "#60111"
+msgid "Edit File:"
+msgstr ""
+
+msgctxt "#60112"
+msgid "Edit Type:"
+msgstr ""
+
+msgctxt "#60113"
+msgid "Edit Unit:"
+msgstr ""
+
+msgctxt "#60114"
+msgid "Number of Edits:"
+msgstr ""
+
+msgctxt "#60115"
+msgid "Start Time [hms]:"
+msgstr ""
+
+msgctxt "#60116"
+msgid "Duration [hms (f)]:"
+msgstr ""
+
+msgctxt "#60117"
+msgid "Keyframe Interval [hms (f)]:"
+msgstr ""
+
+msgctxt "#60118"
+msgid "Framerate [fps]:"
+msgstr ""
+
+msgctxt "#60119"
+msgid "Start:"
+msgstr ""
+
+msgctxt "#60120"
+msgid "Stop:"
+msgstr ""
+
+msgctxt "#60121"
+msgid "Enter Start Time"
+msgstr ""
+
+msgctxt "#60122"
+msgid "Enter Stop Time"
+msgstr ""

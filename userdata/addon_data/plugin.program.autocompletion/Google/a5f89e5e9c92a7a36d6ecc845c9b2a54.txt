@@ -1,0 +1,1 @@
+["Seterus", ["seterus song", "seterus", "seterusnya", "seterus video", "seterusnya aku akan terus menunggu", "seterus video download", "seterus and mr cooper", "new seterus", "lagu seterusnya", "kekasih seterusnya"], [], {"google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

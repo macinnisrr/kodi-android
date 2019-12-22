@@ -1,0 +1,1 @@
+["222", ["222", "2223", "222 meaning", "2222", "222-0", "222 remington", "22250", "222 bpm", "222 fbz", "222 clean"], [], {"google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

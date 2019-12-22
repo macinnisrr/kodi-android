@@ -1,0 +1,1 @@
+["f", ["futsal shuffle", "fortnite", "faze rug", "flamingo", "fgteev", "frozen 2", "falling", "funny videos", "frosty the snowman", "frozen 2 songs"], [], {"google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

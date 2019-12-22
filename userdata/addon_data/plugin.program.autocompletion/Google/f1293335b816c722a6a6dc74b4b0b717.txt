@@ -1,0 +1,1 @@
+["gold", ["gold digger", "gold rush", "gold", "golden wind", "golden buzzer", "golden retriever", "golden kye", "golden harry styles", "golden girls", "gold rush season 10 episode 10"], [], {"google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

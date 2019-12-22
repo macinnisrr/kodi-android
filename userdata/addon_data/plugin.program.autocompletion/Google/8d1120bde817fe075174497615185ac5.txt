@@ -1,0 +1,1 @@
+["gol", ["gold digger", "gold rush", "gold", "golden wind", "golden buzzer", "golden retriever", "golden kye", "golpari 97", "golden girls", "golf"], [], {"google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

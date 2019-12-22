@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category id="general" label="General">
+        <setting id="enable_service" label="Enable Video OSD button" type="bool" default="true"></setting>
+    </category>
+</settings>

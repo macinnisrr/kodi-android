@@ -1,0 +1,11 @@
+<settings version="2">
+    <setting id="busybox" default="true"></setting>
+    <setting id="last.update">1576941766.54</setting>
+    <setting id="notification">true</setting>
+    <setting id="service">true</setting>
+    <setting id="service.interval">24</setting>
+    <setting id="service.startup">true</setting>
+    <setting id="service.time">03:33</setting>
+    <setting id="service.type" default="true">0</setting>
+    <setting id="version" default="true">0.0.7</setting>
+</settings>

@@ -1,0 +1,1 @@
+["g book", ["g books", "g book toyota", "g-book toyota english", "g book alpha english", "g-book.com english", "gbooks downloader", "g book app", "g-book arpeggio", "ali g book", "ali g book reaction"], [], {"google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

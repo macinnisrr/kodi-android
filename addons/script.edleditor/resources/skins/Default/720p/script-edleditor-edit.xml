@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<defaultcontrol always="true">210</defaultcontrol>
+	<coordinates>
+		<left>75</left>
+		<top>60</top>
+	</coordinates>
+	<animation effect="fade" time="200">WindowOpen</animation>
+	<animation effect="fade" time="200">WindowClose</animation>
+	<depth>0.52</depth>
+	<controls>
+		<control type="image">
+			<visible>![Window.IsVisible(FullscreenVideo) | Window.IsVisible(Visualisation)]</visible>
+			<description>background image</description>
+			<left>0</left>
+			<top>0</top>
+			<width>1130</width>
+			<height>600</height>
+			<texture border="40">DialogBack.png</texture>
+		</control>
+		<control type="image">
+			<visible>Window.IsVisible(FullscreenVideo) | Window.IsVisible(Visualisation)</visible>
+			<description>background image</description>
+			<left>0</left>
+			<top>0</top>
+			<width>1130</width>
+			<height>600</height>
+			<texture border="40">DialogBack2.png</texture>
+		</control>
+		<control type="image">
+			<description>Dialog Header image</description>
+			<left>20</left>
+			<top>16</top>
+			<width>1090</width>
+			<height>40</height>
+			<texture>dialogheader.png</texture>
+		</control>
+		<control type="label" id="215">
+			<description>header label</description>
+			<left>40</left>
+			<top>20</top>
+			<width>1050</width>
+			<height>30</height>
+			<font>font13_title</font>
+			<align>center</align>
+			<aligny>center</aligny>
+			<textcolor>FFEB9E17</textcolor>
+			<shadowcolor>FF000000</shadowcolor>
+		</control>
+		<control type="button" id="220">
+			<description>Close Window button</description>
+			<left>1040</left>
+			<top>16</top>
+			<width>64</width>
+			<height>32</height>
+			<label></label>
+			<font></font>
+			<texturefocus colordiffuse="FF0084FF">DialogCloseButton-focus.png</texturefocus>
+			<texturenofocus>DialogCloseButton.png</texturenofocus>
+			<onleft>210</onleft>
+			<onright>210</onright>
+			<onup>210</onup>
+			<ondown>253</ondown>
+			<visible>system.getbool(input.enablemouse)</visible>
+		</control>
+		<control type="group">
+			<left>30</left>
+			<top>70</top>
+			<control type="image">
+				<left>0</left>
+				<top>0</top>
+				<width>530</width>
+				<height>440</height>
+				<texture border="15">ContentPanel.png</texture>
+				<include condition="!IsEmpty(Skin.String(MediaPanelTrans))">TransparentEffect</include>
+				<visible>!Control.HasFocus(240) + !Control.HasFocus(241) + !Control.HasFocus(242) + !Control.HasFocus(243) + !Control.HasFocus(244) + !Control.HasFocus(245) + !Control.HasFocus(249)</visible>
+			</control>
+			<control type="image">
+				<left>0</left>
+				<top>0</top>
+				<width>530</width>
+				<height>440</height>
+				<texture border="15" colordiffuse="FF0084FF">ContentPanel.png</texture>
+				<include condition="!IsEmpty(Skin.String(MediaPanelTrans))">TransparentEffect</include>
+				<visible>Control.HasFocus(240) | Control.HasFocus(241) | Control.HasFocus(242) | Control.HasFocus(243) | Control.HasFocus(244) | Control.HasFocus(245) | Control.HasFocus(249)</visible>
+			</control>
+			<control type="image">
+				<left>540</left>
+				<top>0</top>
+				<width>530</width>
+				<height>440</height>
+				<texture border="15">ContentPanel.png</texture>
+				<include condition="!IsEmpty(Skin.String(MediaPanelTrans))">TransparentEffect</include>
+				<visible>!Control.HasFocus(250) + !Control.HasFocus(251) + !Control.HasFocus(252) + !Control.HasFocus(253) + !Control.HasFocus(254) + !Control.HasFocus(255) + !Control.HasFocus(259)</visible>
+			</control>
+			<control type="image">
+				<left>540</left>
+				<top>0</top>
+				<width>530</width>
+				<height>440</height>
+				<texture border="15" colordiffuse="FF0084FF">ContentPanel.png</texture>
+				<include condition="!IsEmpty(Skin.String(MediaPanelTrans))">TransparentEffect</include>
+				<visible>Control.HasFocus(250) | Control.HasFocus(251) | Control.HasFocus(252) | Control.HasFocus(253) | Control.HasFocus(254) | Control.HasFocus(255) | Control.HasFocus(259)</visible>
+			</control>
+			<control type="label" id="232">
+				<description>start</description>
+				<left>5</left>
+				<top>5</top>
+				<width>520</width>
+				<height>25</height>
+				<align>center</align>
+				<font>font13</font>
+				<scroll>true</scroll>
+				<textcolor>FF0084FF</textcolor>
+			</control>
+			<control type="label" id="237">
+				<description>stop</description>
+				<left>545</left>
+				<top>5</top>
+				<width>520</width>
+				<height>25</height>
+				<align>center</align>
+				<font>font13</font>
+				<scroll>true</scroll>
+				<textcolor>FF0084FF</textcolor>
+			</control>
+			<control type="image" id="230">
+				<description>start image</description>
+				<left>10</left>
+				<top>35</top>
+				<width>510</width>
+				<height>290</height>
+				<aspectratio>stretch</aspectratio>
+				<bordertexture border="5">button-nofocus.png</bordertexture>
+				<bordersize>4</bordersize>
+				<fadetime>200</fadetime>
+			</control>
+			<control type="image" id="235">
+				<description>stop image</description>
+				<left>550</left>
+				<top>35</top>
+				<width>510</width>
+				<height>290</height>
+				<aspectratio>stretch</aspectratio>
+				<bordertexture border="5">button-nofocus.png</bordertexture>
+				<bordersize>4</bordersize>
+				<fadetime>200</fadetime>
+			</control>
+			<control type="label" id="231">
+				<description>start time</description>
+				<left>5</left>
+				<top>295</top>
+				<width>520</width>
+				<height>25</height>
+				<align>center</align>
+				<font>font13</font>
+				<scroll>true</scroll>
+			</control>
+			<control type="label" id="236">
+				<description>stop time</description>
+				<left>545</left>
+				<top>295</top>
+				<width>520</width>
+				<height>25</height>
+				<align>center</align>
+				<font>font13</font>
+				<scroll>true</scroll>
+			</control>
+			<control type="group">
+				<left>10</left>
+				<top>335</top>
+				<control type="button" id="240">
+					<description>start -5 button</description>
+					<left>0</left>
+					<top>0</top>
+					<width>80</width>
+					<height>40</height>
+					<font>font12_title</font>
+					<textcolor>white</textcolor>
+					<focusedcolor>white</focusedcolor>
+					<align>center</align>
+					<onleft>255</onleft>
+					<onright>241</onright>
+					<onup>220</onup>
+					<ondown>249</ondown>
+					<texturefocus colordiffuse="FF0084FF">arrow-triple-left.png</texturefocus>
+					<texturenofocus>arrow-triple-left.png</texturenofocus>
+				</control>
+				<control type="button" id="241">
+					<description>start -1 button</description>
+					<left>85</left>
+					<top>0</top>
+					<width>80</width>
+					<height>40</height>
+					<font>font12_title</font>
+					<textcolor>white</textcolor>
+					<focusedcolor>white</focusedcolor>
+					<align>center</align>
+					<onleft>240</onleft>
+					<onright>242</onright>
+					<onup>220</onup>
+					<ondown>249</ondown>
+					<texturefocus colordiffuse="FF0084FF">arrow-double-left.png</texturefocus>
+					<texturenofocus>arrow-double-left.png</texturenofocus>
+				</control>
+				<control type="button" id="242">
+					<description>start -gop button</description>
+					<left>170</left>
+					<top>0</top>
+					<width>80</width>
+					<height>40</height>
+					<font>font12_title</font>
+					<textcolor>white</textcolor>
+					<focusedcolor>white</focusedcolor>
+					<align>center</align>
+					<onleft>241</onleft>
+					<onright>243</onright>
+					<onup>220</onup>
+					<ondown>249</ondown>
+					<texturefocus colordiffuse="FF0084FF">arrow-single-left.png</texturefocus>
+					<texturenofocus>arrow-single-left.png</texturenofocus>
+				</control>
+				<control type="button" id="243">
+					<description>start +gop button</description>
+					<left>255</left>
+					<top>0</top>
+					<width>80</width>
+					<height>40</height>
+					<font>font12_title</font>
+					<textcolor>white</textcolor>
+					<focusedcolor>white</focusedcolor>
+					<align>center</align>
+					<onleft>242</onleft>
+					<onright>244</onright>
+					<onup>220</onup>
+					<ondown>249</ondown>
+					<texturefocus colordiffuse="FF0084FF">arrow-single-right.png</texturefocus>
+					<texturenofocus>arrow-single-right.png</texturenofocus>
+				</control>
+				<control type="button" id="244">
+					<description>start +1 button</description>
+					<left>340</left>
+					<top>0</top>
+					<width>80</width>
+					<height>40</height>
+					<font>font12_title</font>
+					<textcolor>white</textcolor>
+					<focusedcolor>white</focusedcolor>
+					<align>center</align>
+					<onleft>243</onleft>
+					<onright>245</onright>
+					<onup>220</onup>
+					<ondown>249</ondown>
+					<texturefocus colordiffuse="FF0084FF">arrow-double-right.png</texturefocus>
+					<texturenofocus>arrow-double-right.png</texturenofocus>
+				</control>
+				<control type="button" id="245">
+					<description>start +5 button</description>
+					<left>425</left>
+					<top>0</top>
+					<width>80</width>
+					<height>40</height>
+					<font>font12_title</font>
+					<textcolor>white</textcolor>
+					<focusedcolor>white</focusedcolor>
+					<align>center</align>
+					<onleft>244</onleft>
+					<onright>250</onright>
+					<onup>220</onup>
+					<ondown>249</ondown>
+					<texturefocus colordiffuse="FF0084FF">arrow-triple-right.png</texturefocus>
+					<texturenofocus>arrow-triple-right.png</texturenofocus>
+				</control>
+				<control type="button" id="249">
+					<description>Start time button</description>
+					<left>155</left>
+					<top>50</top>
+					<width>200</width>
+					<height>40</height>
+					<font>font12_title</font>
+					<textcolor>white</textcolor>
+					<focusedcolor>white</focusedcolor>
+					<align>center</align>
+					<onleft>259</onleft>
+					<onright>259</onright>
+					<onup>243</onup>
+					<ondown>210</ondown>
+				</control>
+			</control>
+			<control type="group">
+				<left>550</left>
+				<top>335</top>
+				<control type="button" id="250">
+					<description>stop -5 button</description>
+					<left>0</left>
+					<top>0</top>
+					<width>80</width>
+					<height>40</height>
+					<font>font12_title</font>
+					<textcolor>white</textcolor>
+					<focusedcolor>white</focusedcolor>
+					<align>center</align>
+					<onleft>245</onleft>
+					<onright>251</onright>
+					<onup>220</onup>
+					<ondown>259</ondown>
+					<texturefocus colordiffuse="FF0084FF">arrow-triple-left.png</texturefocus>
+					<texturenofocus>arrow-triple-left.png</texturenofocus>
+				</control>
+				<control type="button" id="251">
+					<description>stop -1 button</description>
+					<left>85</left>
+					<top>0</top>
+					<width>80</width>
+					<height>40</height>
+					<font>font12_title</font>
+					<textcolor>white</textcolor>
+					<focusedcolor>white</focusedcolor>
+					<align>center</align>
+					<onleft>250</onleft>
+					<onright>252</onright>
+					<onup>220</onup>
+					<ondown>259</ondown>
+					<texturefocus colordiffuse="FF0084FF">arrow-double-left.png</texturefocus>
+					<texturenofocus>arrow-double-left.png</texturenofocus>
+				</control>
+				<control type="button" id="252">
+					<description>stop -gop button</description>
+					<left>170</left>
+					<top>0</top>
+					<width>80</width>
+					<height>40</height>
+					<font>font12_title</font>
+					<textcolor>white</textcolor>
+					<focusedcolor>white</focusedcolor>
+					<align>center</align>
+					<onleft>251</onleft>
+					<onright>253</onright>
+					<onup>220</onup>
+					<ondown>259</ondown>
+					<texturefocus colordiffuse="FF0084FF">arrow-single-left.png</texturefocus>
+					<texturenofocus>arrow-single-left.png</texturenofocus>
+				</control>
+				<control type="button" id="253">
+					<description>stop +gop button</description>
+					<left>255</left>
+					<top>0</top>
+					<width>80</width>
+					<height>40</height>
+					<font>font12_title</font>
+					<textcolor>white</textcolor>
+					<focusedcolor>white</focusedcolor>
+					<align>center</align>
+					<onleft>252</onleft>
+					<onright>254</onright>
+					<onup>220</onup>
+					<ondown>259</ondown>
+					<texturefocus colordiffuse="FF0084FF">arrow-single-right.png</texturefocus>
+					<texturenofocus>arrow-single-right.png</texturenofocus>
+				</control>
+				<control type="button" id="254">
+					<description>stop +1 button</description>
+					<left>340</left>
+					<top>0</top>
+					<width>80</width>
+					<height>40</height>
+					<font>font12_title</font>
+					<textcolor>white</textcolor>
+					<focusedcolor>white</focusedcolor>
+					<align>center</align>
+					<onleft>253</onleft>
+					<onright>255</onright>
+					<onup>220</onup>
+					<ondown>259</ondown>
+					<texturefocus colordiffuse="FF0084FF">arrow-double-right.png</texturefocus>
+					<texturenofocus>arrow-double-right.png</texturenofocus>
+				</control>
+				<control type="button" id="255">
+					<description>stop +5 button</description>
+					<left>425</left>
+					<top>0</top>
+					<width>80</width>
+					<height>40</height>
+					<font>font12_title</font>
+					<textcolor>white</textcolor>
+					<focusedcolor>white</focusedcolor>
+					<align>center</align>
+					<onleft>254</onleft>
+					<onright>240</onright>
+					<onup>220</onup>
+					<ondown>259</ondown>
+					<texturefocus colordiffuse="FF0084FF">arrow-triple-right.png</texturefocus>
+					<texturenofocus>arrow-triple-right.png</texturenofocus>
+				</control>
+				<control type="button" id="259">
+					<description>End time button</description>
+					<left>155</left>
+					<top>50</top>
+					<width>200</width>
+					<height>40</height>
+					<font>font12_title</font>
+					<textcolor>white</textcolor>
+					<focusedcolor>white</focusedcolor>
+					<align>center</align>
+					<onleft>249</onleft>
+					<onright>249</onright>
+					<onup>253</onup>
+					<ondown>210</ondown>
+				</control>
+			</control>
+		</control>
+		<control type="group">
+			<left>30</left>
+			<top>520</top>
+			<control type="button" id="210">
+				<description>Store button</description>
+				<left>600</left>
+				<top>0</top>
+				<width>200</width>
+				<height>40</height>
+				<font>font12_title</font>
+				<textcolor>white</textcolor>
+				<focusedcolor>white</focusedcolor>
+				<align>center</align>
+				<onleft>211</onleft>
+				<onright>211</onright>
+				<onup>259</onup>
+				<ondown>220</ondown>
+			</control>
+			<control type="button" id="211">
+				<description>Cancel button</description>
+				<left>870</left>
+				<top>0</top>
+				<width>200</width>
+				<height>40</height>
+				<font>font12_title</font>
+				<textcolor>white</textcolor>
+				<focusedcolor>white</focusedcolor>
+				<align>center</align>
+				<onleft>210</onleft>
+				<onright>210</onright>
+				<onup>259</onup>
+				<ondown>220</ondown>
+			</control>
+		</control>
+	</controls>
+</window>
+

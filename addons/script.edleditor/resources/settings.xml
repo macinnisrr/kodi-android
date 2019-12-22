@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<settings>
+	<!-- GENERAL -->
+	<category label="60000">
+		<setting id="prefer_edl" type="bool" label="60010" default="true" />
+		<setting id="frame_edl" type="bool" label="60011" default="false" />
+		<setting id="video_folder" label="60012" type="folder" source="videos" option="writeable"/>
+		<setting id="search_delay" type="bool" label="60013" default="false" />
+		<setting id="separator1" type="sep" />
+		<setting id="gui_type" type="labelenum" label="60014" values="default|classic" default="default" />
+	</category>
+</settings>

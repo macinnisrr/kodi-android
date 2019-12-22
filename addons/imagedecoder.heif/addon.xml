@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="imagedecoder.heif"
+  version="1.0.3"
+  name="HEIF image decoder"
+  provider-name="spiff">
+  <requires>
+<import addon="kodi.binary.global.main" version="1.0.14"/>
+<import addon="kodi.binary.instance.imagedecoder" version="2.0.0"/></requires>
+  <extension
+    point="kodi.imagedecoder"
+    library_android="libimagedecoder.heif.so"
+    extension=".heif|.heic"
+    mimetype="image/heif|image/heic"/>
+  <extension point="xbmc.addon.metadata">
+    <summary>libheif based image decoder</summary>
+    <description>libheif based image decoder</description>
+    <platform>android-armv7</platform>
+  </extension>
+</addon>

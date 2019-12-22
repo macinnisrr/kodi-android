@@ -1,0 +1,4 @@
+#LWP-Cookies-2.0
+Set-Cookie3: __cfduid=d9d6499d1b541ccde450d5fc5a7d2fc7f1576891561; path="/"; domain=".1337x.to"; path_spec; domain_dot; secure; expires="2020-01-20 01:26:01Z"; HttpOnly=None; SameSite=Lax; version=0
+Set-Cookie3: __cfduid=de6f3860738cda2c36aa2108bb21c477c1576891551; path="/"; domain=".torrentapi.org"; path_spec; domain_dot; expires="2020-01-20 01:25:51Z"; HttpOnly=None; SameSite=Lax; version=0
+Set-Cookie3: __cfduid=dd5a82c606c66181e5d2098226b1eca181576900918; path="/"; domain=".yts.lt"; path_spec; domain_dot; secure; expires="2020-01-20 04:01:58Z"; HttpOnly=None; SameSite=Lax; version=0

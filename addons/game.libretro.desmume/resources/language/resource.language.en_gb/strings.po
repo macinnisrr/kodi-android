@@ -1,0 +1,185 @@
+# game.libretro.desmume language file
+# Addon Name: game.libretro.desmume
+# Addon id: game.libretro.desmume
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.desmume\n"
+"Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
+"POT-Creation-Date: 2017-02-04 09:56i\n"
+"PO-Revision-Date: 2017-02-04 09:56i\n"
+"Last-Translator: Kodi Translation Team\n"
+"Language-Team: English (http://www.transifex.com/projects/p/xbmc-addons/language/en/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "#30000"
+msgid "Settings"
+msgstr ""
+
+msgctxt "#30001"
+msgid "Enable Advanced Bus-Level Timing"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Boot Into BIOS (interpreter and external bios only)"
+msgstr ""
+
+msgctxt "#30003"
+msgid "OpenGL: Color Depth (restart)"
+msgstr ""
+
+msgctxt "#30004"
+msgid "CPU Mode (restart)"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Firmware Language"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Frameskip"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Edge Marking"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Soft3D: High-res Color Interpolation"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Soft3D: Line Hack"
+msgstr ""
+
+msgctxt "#30010"
+msgid "OpenGL: Multisampling AA"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Texture Deposterization"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Texture Scaling (xBrz)"
+msgstr ""
+
+msgctxt "#30013"
+msgid "OpenGL: Texture Smoothing"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Soft3D: Texture Hack"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Hybrid Layout: Cursor Always on Small Screen"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Hybrid Layout: Ratio"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Hybrid Layout: Scale So Small Screen is 1:1px"
+msgstr ""
+
+msgctxt "#30018"
+msgid "Hybrid Layout: Show Both Screens"
+msgstr ""
+
+msgctxt "#30019"
+msgid "Pointer Rotation"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Internal Resolution"
+msgstr ""
+
+msgctxt "#30021"
+msgid "JIT Block Size"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Load Game Into Memory (restart)"
+msgstr ""
+
+msgctxt "#30023"
+msgid "Microphone Button Noise Type"
+msgstr ""
+
+msgctxt "#30024"
+msgid "Mouse Speed"
+msgstr ""
+
+msgctxt "#30025"
+msgid "CPU Cores"
+msgstr ""
+
+msgctxt "#30026"
+msgid "OpenGL: Depth-LEqual Polygon Facing"
+msgstr ""
+
+msgctxt "#30027"
+msgid "OpenGL Rasterizer (restart)"
+msgstr ""
+
+msgctxt "#30028"
+msgid "OpenGL: NDS Depth Calculation"
+msgstr ""
+
+msgctxt "#30029"
+msgid "OpenGL: Shadow Polygons"
+msgstr ""
+
+msgctxt "#30030"
+msgid "OpenGL: Special 0 Alpha"
+msgstr ""
+
+msgctxt "#30031"
+msgid "Pointer Colour"
+msgstr ""
+
+msgctxt "#30032"
+msgid "Emulated Pointer Acceleration Modifier Percent"
+msgstr ""
+
+msgctxt "#30033"
+msgid "Emulated Pointer Deadzone Percent"
+msgstr ""
+
+msgctxt "#30034"
+msgid "Pointer Mode for Left Analog"
+msgstr ""
+
+msgctxt "#30035"
+msgid "Pointer Mode for Right Analog"
+msgstr ""
+
+msgctxt "#30036"
+msgid "Mouse/Pointer"
+msgstr ""
+
+msgctxt "#30037"
+msgid "Emulated Stylus Pressure Modifier Percent"
+msgstr ""
+
+msgctxt "#30038"
+msgid "Pointer Type"
+msgstr ""
+
+msgctxt "#30039"
+msgid "Screen Gap"
+msgstr ""
+
+msgctxt "#30040"
+msgid "Screen Layout"
+msgstr ""
+
+msgctxt "#30041"
+msgid "Use External BIOS/Firmware (restart)"
+msgstr ""

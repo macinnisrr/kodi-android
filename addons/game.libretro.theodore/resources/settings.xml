@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="30000">
+		<setting label="30001" type="select" id="theodore_autorun" values="disabled|enabled" default="disabled"/>
+		<setting label="30002" type="select" id="theodore_floppy_write_protect" values="enabled|disabled" default="enabled"/>
+		<setting label="30003" type="select" id="theodore_printer_emulation" values="disabled|enabled" default="disabled"/>
+		<setting label="30004" type="select" id="theodore_rom" values="Auto|TO8|TO8D|TO9|TO9+|MO5|MO6|PC128" default="Auto"/>
+		<setting label="30005" type="select" id="theodore_tape_write_protect" values="enabled|disabled" default="enabled"/>
+	</category>
+</settings>

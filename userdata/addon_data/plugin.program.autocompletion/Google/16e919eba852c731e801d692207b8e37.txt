@@ -1,0 +1,1 @@
+["saskatoon", ["saskatoon", "saskatoon police", "saskatoon gangs", "saskatoon blades", "saskatoon news", "saskatoon hilltops", "saskatoon fight", "saskatoon saskatchewan", "saskatoon airport", "saskatoon volleyball"], [], {"google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

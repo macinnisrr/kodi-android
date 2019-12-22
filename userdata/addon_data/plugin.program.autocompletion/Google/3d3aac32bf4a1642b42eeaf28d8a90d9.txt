@@ -1,0 +1,1 @@
+["Scrooged", ["scrooged", "scrooged trailer", "scrooged ending", "scrooged soundtrack", "scrooged full movie", "scrooged 1988", "scrooged clip", "scrooged ghost of christmas past", "scrooged movie", "scrooged theme"], [], {"google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

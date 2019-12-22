@@ -1,0 +1,8 @@
+<settings version="2">
+    <setting id="ClockMode" default="true">0</setting>
+    <setting id="Enable_Debugging" default="true">false</setting>
+    <setting id="Enable_HDHR" default="true">false</setting>
+    <setting id="FirstTime_HDHR">true</setting>
+    <setting id="FirstTime_Run">false</setting>
+    <setting id="useKodiSkin" default="true">false</setting>
+</settings>

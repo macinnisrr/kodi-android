@@ -1,0 +1,1 @@
+["cana", ["canada", "canadian election 2019", "canada goose", "canada election", "canada vs usa", "canadian election", "canadian accent", "canada debate", "canada's wonderland", "canada vs usa soccer"], [], {"google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

@@ -1,0 +1,1 @@
+["fr", ["frozen 2", "frosty the snowman", "frozen 2 songs", "frozen", "friends", "frozen 2 trailer", "french montana", "frank ocean", "frank sinatra", "freeze dance"], [], {"google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

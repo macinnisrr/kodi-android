@@ -1,0 +1,2 @@
+= Versions: ArtworkBeef/0.27.1 Kodi/18.5 (Linux; Android 7.0; TX6 Build/NRD91N) Android/7.0.0 Sys_CPU/armv8l App_Bitness/32 Version/18.5-Git:20191116-37f51f6e63
+

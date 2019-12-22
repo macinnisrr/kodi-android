@@ -1,0 +1,1 @@
+["ka", ["kanye west", "karan aujla", "karaoke", "katy perry", "kapil sharma show", "kate yup", "kamaru usman vs colby covington", "kane brown", "kadenang ginto", "kawhi leonard"], [], {"google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

@@ -1,0 +1,1 @@
+["CTV News", ["ctv news", "ctv news live", "ctv news intro", "ctv news election", "ctv news barrie", "ctv news theme", "ctv news channel", "ctv news debate", "ctv news bloopers", "ctv news weather"], [], {"google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

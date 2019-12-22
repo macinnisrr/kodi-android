@@ -1,0 +1,29 @@
+<settings version="2">
+    <setting id="azlyrics">true</setting>
+    <setting id="clean_title" default="true">false</setting>
+    <setting id="darklyrics">true</setting>
+    <setting id="genius">true</setting>
+    <setting id="gomaudio">true</setting>
+    <setting id="log_enabled" default="true">false</setting>
+    <setting id="lyricscom">true</setting>
+    <setting id="lyricsmode">true</setting>
+    <setting id="lyricwiki">true</setting>
+    <setting id="minilyrics">true</setting>
+    <setting id="music163">true</setting>
+    <setting id="offset" default="true">0</setting>
+    <setting id="read_filename" default="true">false</setting>
+    <setting id="read_filename_format" default="true">0</setting>
+    <setting id="save_filename_format" default="true">0</setting>
+    <setting id="save_lyrics1">true</setting>
+    <setting id="save_lyrics2" default="true">false</setting>
+    <setting id="save_lyrics_path">/storage/emulated/0/Android/data/org.xbmc.kodi/files/.kodi/userdata/addon_data/script.cu.lrclyrics/lyrics</setting>
+    <setting id="save_subfolder" default="true">false</setting>
+    <setting id="save_subfolder_path" default="true">lyrics</setting>
+    <setting id="scraper_test" default="true"></setting>
+    <setting id="search_embedded">true</setting>
+    <setting id="search_file">true</setting>
+    <setting id="service">true</setting>
+    <setting id="silent" default="true">false</setting>
+    <setting id="strip" default="true">false</setting>
+    <setting id="ttplayer">true</setting>
+</settings>

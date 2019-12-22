@@ -1,0 +1,1 @@
+["goldfinc", ["goldfinch", "goldfinch review", "goldfinch finn wolfhard", "goldfinch call", "goldfinch boris", "goldfinch kiss", "goldfinch song", "goldfinch movie", "goldfinch soundtrack", "goldfinch scene"], [], {"google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

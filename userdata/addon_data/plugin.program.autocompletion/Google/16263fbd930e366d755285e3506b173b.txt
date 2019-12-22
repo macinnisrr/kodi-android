@@ -1,0 +1,1 @@
+["th", ["the game awards 2019", "the weeknd", "the view", "the game awards", "the git up", "the office", "the voice", "the masked singer", "the real", "the witcher"], [], {"google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

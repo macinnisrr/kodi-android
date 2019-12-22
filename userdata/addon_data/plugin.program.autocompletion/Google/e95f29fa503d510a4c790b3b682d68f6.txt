@@ -1,0 +1,1 @@
+["primal", ["primal", "primal trailer", "primal edge health", "primal scream", "primal outdoors", "primal dialga theme", "primal carnage", "primal episode 2", "primal rage", "primal episode 5"], [], {"google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

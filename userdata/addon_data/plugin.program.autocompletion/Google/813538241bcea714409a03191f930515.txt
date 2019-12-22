@@ -1,0 +1,1 @@
+["go", ["gordon ramsay", "good as hell", "godfall ps5", "gold digger", "gorillaz", "gold rush", "goosebumps", "got7", "google", "google pixel 4"], [], {"google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

@@ -1,0 +1,1 @@
+["met", ["metallica", "metallica one", "method man", "metric", "metro boomin", "metal", "metro exodus", "metallica live", "meta runner", "metal detecting"], [], {"google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.desmume"
+		name="Nintendo - DS (DeSmuME)"
+		version="0.0.1.3"
+		provider-name="Libretro">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.nds" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_android="libgame.libretro.desmume.so">
+		<platforms>Nintendo DS</platforms>
+		<extensions>nds|bin</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Nintendo - DS (DeSmuME) git</summary>
+		<description lang="en_GB">DeSmuME is software that allows you to emulate a Nintendo DS system.
+
+Special thanks to: yopyop (original author of DeSmuME), for releasing the source code of this great emulator; Martin Korth (author of GBATEK), for his well-written Gameboy Advance and Nintendo DS documentation.
+
+Supported files: .nds, .bin</description>
+		<license>GPLv2</license>
+		<platform>android-armv7</platform>
+		<source>https://github.com/kodi-game/game.libretro.desmume</source>
+	</extension>
+</addon>

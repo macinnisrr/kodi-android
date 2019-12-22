@@ -1,0 +1,1 @@
+["freaks", ["freaks", "freaks trailer", "freaks and geeks", "freaks nightcore", "freaks gacha life", "freaks lyrics", "freaks meme", "freaks glmv", "freaks song", "freak show"], [], {"google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

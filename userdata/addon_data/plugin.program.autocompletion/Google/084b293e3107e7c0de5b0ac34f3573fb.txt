@@ -1,0 +1,1 @@
+["c", ["christmas songs", "christmas music", "cardi b", "christmas movies", "colby covington", "cnn", "ceeday", "cut", "chris brown", "callmecarson"], [], {"google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

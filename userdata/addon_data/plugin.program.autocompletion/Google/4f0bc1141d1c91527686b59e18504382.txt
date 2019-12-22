@@ -1,0 +1,1 @@
+["g", ["game awards 2019", "game awards", "gacha life", "ghost of tsushima", "ghostbusters afterlife trailer", "genius", "gmm", "game grumps", "game theory", "gordon ramsay"], [], {"google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

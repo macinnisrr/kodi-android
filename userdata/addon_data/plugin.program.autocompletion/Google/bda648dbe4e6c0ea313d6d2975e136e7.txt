@@ -1,0 +1,1 @@
+["fre", ["french montana", "freeze dance", "fresh", "fred", "french songs", "freaky friday", "french", "freddie mercury", "french 3m", "fredo"], [], {"google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

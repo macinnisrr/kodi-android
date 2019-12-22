@@ -1,0 +1,1 @@
+["pow", ["power rangers", "power", "powerglide", "powerpuff girls", "powerbeats pro", "power of love", "powerwolf", "power trip", "pow wow", "power and politics"], [], {"google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

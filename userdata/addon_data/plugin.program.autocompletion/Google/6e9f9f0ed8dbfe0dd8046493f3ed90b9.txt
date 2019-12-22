@@ -1,0 +1,1 @@
+["adopt", ["adopt me", "adoption", "adopt me roblox", "adopt me codes", "adopting a puppy", "adoption story", "adopting a dog", "adopting a cat", "adoption surprise", "adopt me trading"], [], {"google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

@@ -1,0 +1,1 @@
+["freak", ["freaky friday", "freaks", "freaks trailer", "freaks and geeks", "freak the freak out", "freak on a leash", "freaky friday clean", "freakazoid", "freaks nightcore", "freak show"], [], {"google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

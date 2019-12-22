@@ -1,0 +1,19 @@
+{
+    "access_manager": {
+        "current_user": "0", 
+        "developers": {}, 
+        "last_origin": "plugin.video.youtube", 
+        "users": {
+            "0": {
+                "access_token": "ya29.ImC2B90q2PkoKDTJ-GZCcNXmDAZnbHrbuuXVCIC5ljlk9vJLyMfwZrpwz48T5RNDZLah6DU4OKSp7G0Upf2ZnUuO7ZtYzS2URiNcLcVSM9kYI_bgP1Gycq5hEkLzesbkZIM|ya29.ImC2B1ytAu5rjro-rPDcC8Pl9t-CnrPPZcxkqmnKqgk_PIWWhrtJaqeg07Bifq9v9pzBwQ6JXymyUaK5CZLpm_bZDFwiKFbyZoSttrhBuCb9plZ5Y_tJnLYHff65OBDouXU", 
+                "id": "f4ad08769bbc4d62ba5d824516681877", 
+                "last_key_hash": "cb4f1abc1dcd379e8ae720d45fa96bed", 
+                "name": "Default", 
+                "refresh_token": "1//09M1paIq6CFN6CgYIARAAGAkSNwF-L9Irg3SqO8jK6Tdrb8vP23bgtD2kWTXIh9VMIzPZTYdQcFD1hxstXi645A9lTgku2kBO6m4|1//09fdiRSzUyedLCgYIARAAGAkSNwF-L9Irj96fh-FJUVjuYbviKR01-iMh6kexvCnVJK9bQ4ejlfe6ciTJ5vbMUB-E55Y4V3p-ZBY", 
+                "token_expires": 1576876013, 
+                "watch_history": "HL", 
+                "watch_later": " WL"
+            }
+        }
+    }
+}

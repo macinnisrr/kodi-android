@@ -1,0 +1,1 @@
+["mett", ["mettaton theme", "metallica", "mettaton", "mettaton neo", "metti oli", "mettaton neo theme", "mettaton fight", "mettaton neo fight", "mettaton song", "mettaton animation"], [], {"google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

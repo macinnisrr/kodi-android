@@ -1,0 +1,19 @@
+# Kodi Media Center language file
+# Addon Name: Watched status toolbox
+# Addon id: service.tweak.lastplayed
+msgid ""
+msgstr ""
+
+# Settings
+
+msgctxt "#32412"
+msgid "Disable context items [I](per skin)[/I]"
+msgstr ""
+
+msgctxt "#32413"
+msgid "Enable context items [I](per skin)[/I]"
+msgstr ""
+
+msgctxt "#32900"
+msgid "Update last played time after xx minutes"
+msgstr ""

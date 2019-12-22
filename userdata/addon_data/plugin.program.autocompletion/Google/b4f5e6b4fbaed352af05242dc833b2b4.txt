@@ -1,0 +1,1 @@
+["CTV News Power Play", ["ctv news power play"], [], {"google:suggesttype": ["QUERY"]}]

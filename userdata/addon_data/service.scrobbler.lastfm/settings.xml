@@ -1,0 +1,9 @@
+<settings version="2">
+    <setting id="lastfmconfirm">true</setting>
+    <setting id="lastfmpass">boudicca2010</setting>
+    <setting id="lastfmstatus" default="true">YzkxMGMwOTlkMzY3MTdlMzM2ZmMwZDAwOTVhMGM4YWRhMjJhNzI1ZmMwODE2MWVmNzYyMGM5MDI2NTkxMzA1ZQ==</setting>
+    <setting id="lastfmsubmitradio">true</setting>
+    <setting id="lastfmsubmitsongs">true</setting>
+    <setting id="lastfmsubmitvideos">true</setting>
+    <setting id="lastfmuser">dickmacinnis</setting>
+</settings>

@@ -1,0 +1,8 @@
+<favourites>
+    <favourite name="Sleep Music with Snow Falling Peacefully at Night" thumb="https://i.ytimg.com/vi/tKh08LeJ66c/hqdefault.jpg">PlayMedia(&quot;plugin://plugin.video.youtube/play/?video_id=tKh08LeJ66c&quot;)</favourite>
+    <favourite name="Night Ambient Sounds, Cricket, Swamp Sounds at Night, Sleep and Relaxation Meditation Sounds" thumb="https://i.ytimg.com/vi/g1w3IT5WnYw/mqdefault.jpg">PlayMedia(&quot;plugin://plugin.video.youtube/play/?video_id=g1w3IT5WnYw&quot;)</favourite>
+    <favourite name="Chill Study Beats 2 • Instrumental &amp; Jazz Hip Hop Music [2016]" thumb="https://i.ytimg.com/vi/gwDoRPcPxtc/mqdefault.jpg">PlayMedia(&quot;plugin://plugin.video.youtube/play/?video_id=gwDoRPcPxtc&quot;)</favourite>
+    <favourite name="Kirtan with Krishna Das on Maui ~ Dec 2019" thumb="https://i.ytimg.com/vi/nvB0KsoB_9Y/mqdefault.jpg">PlayMedia(&quot;plugin://plugin.video.youtube/play/?video_id=nvB0KsoB_9Y&quot;)</favourite>
+    <favourite name="Progress" thumb="/storage/emulated/0/Android/data/org.xbmc.kodi/files/.kodi/addons/script.exodus.artwork/resources/media/exodus/trakt.png">ActivateWindow(10025,&quot;plugin://plugin.video.exodus/?action=calendar&amp;url=progress&quot;,return)</favourite>
+    <favourite name="4K 10 hours - Black Screen, Audio of Crackling Fireplace - High Quality Recording" thumb="https://i.ytimg.com/vi/nqbnGwfyD5s/mqdefault.jpg">PlayMedia(&quot;plugin://plugin.video.youtube/play/?video_id=nqbnGwfyD5s&quot;)</favourite>
+</favourites>

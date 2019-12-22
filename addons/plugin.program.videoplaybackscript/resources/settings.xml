@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+    <category label="30001">
+        <setting id="startScriptEnabled" label="30002" type="bool" default="false"/>
+        <setting id="startScriptPath" enable="eq(-1,true)" subsetting="true" label="30003" type="executable"/>
+        <setting id="startScriptArgs" enable="eq(-2,true)" subsetting="true" label="30004" type="text"/>
+        <setting id="stopScriptEnabled" label="30005" type="bool" default="false"/>
+        <setting id="stopScriptPath" enable="eq(-1,true)" subsetting="true" label="30006" type="executable"/>
+        <setting id="stopScriptArgs" enable="eq(-2,true)" subsetting="true" label="30007" type="text"/>
+    </category>
+</settings>

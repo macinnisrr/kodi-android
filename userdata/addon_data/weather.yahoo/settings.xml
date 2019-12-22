@@ -1,0 +1,13 @@
+<settings version="2">
+    <setting id="Debug" default="true">false</setting>
+    <setting id="Location1">Saskatoon, SK, CA</setting>
+    <setting id="Location1id">2180</setting>
+    <setting id="Location2">Swift Current, SK, CA</setting>
+    <setting id="Location2id">2309</setting>
+    <setting id="Location3" default="true"></setting>
+    <setting id="Location3id" default="true"></setting>
+    <setting id="Location4" default="true"></setting>
+    <setting id="Location4id" default="true"></setting>
+    <setting id="Location5" default="true"></setting>
+    <setting id="Location5id" default="true"></setting>
+</settings>

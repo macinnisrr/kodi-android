@@ -1,0 +1,1 @@
+["des", ["despacito", "destiny 2", "descendants 3", "destiny", "descendants 3 songs", "descendants songs", "descendants", "despacito 2", "destiny 2 shadowkeep", "desbug"], [], {"google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

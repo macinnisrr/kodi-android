@@ -1,0 +1,1 @@
+["*8", ["*86", "*811*68#", "*8009# iphone", "*8484# mobile registration", "*8484#", "*888#", "*8 jx2", "*800*888#", "*85", "*888# stc not working"], [], {"google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]
